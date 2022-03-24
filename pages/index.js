@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 // import Script from 'next/script'
 import styles from '../styles/Home.module.css'
 
@@ -26,8 +27,8 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.imagewrap}>
-          {/* <Image className={styles.myImg} src="/photo-1510915228340-29c85a43dcfe.avif" width={237} height={158} /> */}
-          <img className={styles.myImg} src="/photo-1510915228340-29c85a43dcfe.avif" alt="" width={237} height={158} />
+          <Image className={styles.myImg} src="/photo-1510915228340-29c85a43dcfe.avif" width={237} height={158} alt='mm' />
+          {/* <img className={styles.myImg} src="/photo-1510915228340-29c85a43dcfe.avif" alt="" width={237} height={158} /> */}
         </div>
 
         <h1 className={styles.title}>
